@@ -7549,12 +7549,12 @@ h2 a {
 }
 
 .logo {
-  line-height: 80px;
+  line-height: 46px;
   position: absolute;
   z-index: 2;
   left: 0;
   width: 50%;
-  height: 80px;
+  height: 46px;
   text-align: center;
 }
 
