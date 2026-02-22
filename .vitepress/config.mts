@@ -8,6 +8,9 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
     githubUsername: 'SOMUCHDOG',
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Portfolio', link: '/portfolio/' },
@@ -20,6 +23,7 @@ export default defineConfig({
           text: 'Portfolio',
           items: [
             { text: 'Overview', link: '/portfolio/' },
+            { text: 'SOMUCHDOG.github.io Replatform', link: '/portfolio/somuchdog-site-replatform' },
             { text: 'Developer Tooling Dashboard', link: '/portfolio/dev-tooling-dashboard' },
             { text: 'Realtime Notes App', link: '/portfolio/realtime-notes-app' }
           ]
