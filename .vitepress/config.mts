@@ -4,7 +4,7 @@ export default defineConfig({
   title: 'Casey Tech Notes',
   description: 'Portfolio and blog about technology, product thinking, and software craft.',
   lang: 'en-US',
-  cleanUrls: true,
+  cleanUrls: false,
   themeConfig: {
     logo: '/logo.svg',
     githubUsername: 'SOMUCHDOG',
