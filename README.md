@@ -30,7 +30,7 @@ Personal blog and portfolio site built with VitePress.
 
 ## GitHub Projects Feed
 
-Set your GitHub username in `/docs/.vitepress/config.mts`:
+Set your GitHub username in `/.vitepress/config.mts`:
 
 ```ts
 themeConfig: {
@@ -42,8 +42,8 @@ The portfolio page will then auto-load your recent public repositories.
 
 ## Content Structure
 
-- `docs/index.md`: Homepage
-- `docs/about.md`: About page
-- `docs/portfolio/`: Portfolio overview + case studies
-- `docs/blog/`: Blog index + posts
-- `docs/.vitepress/`: Site config and theme customization
+- `index.md`: Homepage
+- `about.md`: About page
+- `portfolio/`: Portfolio overview + case studies
+- `blog/`: Blog index + posts
+- `.vitepress/`: Site config and theme customization
